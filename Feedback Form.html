@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback Form</title>
+</head>
+<body>
+	<p><h2>Please fill out this form to help us know more about the fandom!</h2></p>
+	<form method="post">
+	<label><h3>Name:</h3>
+		<input type="text" name="name" size="25" maxlength="30"></p>
+	</label>
+	<label><h3>E-mail adress:</h3>
+		<input type="text" name="E-mail" size="50" maxlength="70"></p>
+	</label>
+	<h3>Your Gender:</h3></p>
+	<input type="radio" name="gender" value="male">Male
+	<input type="radio" name="gender" value="female">Female
+	<input type="radio" name="gender" value="other">Other </p>
+	<h3>Your living place:</h3>
+	<select name="place">
+		<option value="Asia">Asia</option>
+		<option value="Europe">Europe</option>
+		<option value="North America">North America</option>
+		<option value="South America">South America</option>
+		<option value="Africa">Africa</option>
+		<option value="Oceania">Oceania</option>
+	</select>
+	<h3>Which group have you ever heard?</h3>
+		<input type="checkbox" name="group" value="bts">BTS<br>
+		<input type="checkbox" name="group" value="twice">Twice<br>
+		<input type="checkbox" name="group" value="blackpink">BLACKPINK<br>
+		<input type="checkbox" name="group" value="izone">IZ*ONE<br>
+		<input type="checkbox" name="group" value="itzy">ITZY<br>
+		<input type="checkbox" name="group" value="gidle">(G)-IDLE<br>
+		<textarea rows="4" cols="50">
+Enter any other groups you know.
+		</textarea></p>
+		<input type="reset" name="clear">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
